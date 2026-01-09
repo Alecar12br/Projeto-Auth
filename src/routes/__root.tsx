@@ -9,14 +9,13 @@ export const Route = createRootRoute({
     return(
     <>
       
-      <main className="min-h-screen bg-zinc-950 text-zinc-50 antialiased selection:bg-indigo-500/30">
+      
         
         <Outlet />
 
-      </main>
 
       
-      <TanStackRouterDevtools />
+      
     </>)
   },
 })
